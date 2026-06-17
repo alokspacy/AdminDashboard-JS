@@ -57,23 +57,33 @@
 
     <main class="main-content">
 
-        <header class="navbar">
+       <header class="navbar">
 
-            <div class="search-box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search anything...">
-            </div>
+    <button class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+    </button>
 
-            <div class="profile">
-                <i class="fa-solid fa-bell"></i>
+    <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search anything...">
+    </div>
 
-                <img
-                    src="https://i.pravatar.cc/100"
-                    alt="profile"
-                >
-            </div>
+    <div class="profile">
 
-        </header>
+        <button class="theme-btn">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <i class="fa-solid fa-bell"></i>
+
+        <img
+            src="https://i.pravatar.cc/100"
+            alt=""
+        >
+
+    </div>
+
+</header>
 
         <section class="welcome">
 
@@ -111,6 +121,118 @@
             </div>
 
         </section>
+
+        <section class="dashboard-grid">
+
+    <div class="chart-card">
+
+        <div class="section-header">
+            <h2>Revenue Analytics</h2>
+            <span>This Month</span>
+        </div>
+
+        <div class="chart">
+
+            <div class="bar" style="height:45%"></div>
+            <div class="bar" style="height:70%"></div>
+            <div class="bar" style="height:55%"></div>
+            <div class="bar" style="height:90%"></div>
+            <div class="bar" style="height:65%"></div>
+            <div class="bar" style="height:100%"></div>
+            <div class="bar" style="height:82%"></div>
+
+        </div>
+
+    </div>
+
+    <div class="activity-card">
+
+        <div class="section-header">
+            <h2>Quick Stats</h2>
+        </div>
+
+        <div class="mini-stat">
+            <span>Conversion Rate</span>
+            <strong>8.9%</strong>
+        </div>
+
+        <div class="mini-stat">
+            <span>Returning Customers</span>
+            <strong>74%</strong>
+        </div>
+
+        <div class="mini-stat">
+            <span>Avg Order Value</span>
+            <strong>$149</strong>
+        </div>
+
+        <div class="mini-stat">
+            <span>Growth</span>
+            <strong>+24%</strong>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="orders-section">
+
+    <div class="section-header">
+        <h2>Recent Orders</h2>
+        <button class="view-btn">View All</button>
+    </div>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Customer</th>
+                <th>Product</th>
+                <th>Status</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>#RD1001</td>
+                <td>Alex Carter</td>
+                <td>K630 Keyboard</td>
+                <td><span class="success">Delivered</span></td>
+                <td>$89</td>
+            </tr>
+
+            <tr>
+                <td>#RD1002</td>
+                <td>Sophia Lee</td>
+                <td>M808 Mouse</td>
+                <td><span class="pending">Processing</span></td>
+                <td>$45</td>
+            </tr>
+
+            <tr>
+                <td>#RD1003</td>
+                <td>James Wilson</td>
+                <td>H510 Headset</td>
+                <td><span class="success">Delivered</span></td>
+                <td>$65</td>
+            </tr>
+
+            <tr>
+                <td>#RD1004</td>
+                <td>Emma Davis</td>
+                <td>GS520 Speakers</td>
+                <td><span class="cancelled">Cancelled</span></td>
+                <td>$59</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
 
     </main>
 
